@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,100, 300,700");
+@import url("https://fonts.googleapis.com/css?family=Lobster");
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+input,
+textarea,
+select,
+button {
+  outline: none;
+}
+
+input {
+  line-height: normal;
+}
+
+label,
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.product {
+  width: 95%;
+  height: calc(100vh - 10rem);
+  background-color: #c90066;
+  margin: 5rem auto;
+  position: relative;
+}
+
+.product:before {
+  content: "JOGGER";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 20rem;
+  opacity: 0.02;
+  font-weight: bold;
+}
+
+.product__header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+
+.product__menu {
+  background-color: #67275b;
+  height: 100%;
+  padding: 20px 30px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.product__menu i {
+  margin-right: 10px;
+}
+
+.product__menu span {
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.product__heading {
+  font-family: "Lobster", sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.product__tool {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 30px;
+  list-style-type: none;
+}
+
+.product__tool-item {
+  font-size: 12px;
+  padding: 0 7px;
+}
+
+.product__nav-left {
+  background: #fff;
+  -webkit-writing-mode: vertical-lr;
+  -ms-writing-mode: tb-lr;
+  writing-mode: vertical-lr;
+  z-index: 20;
+  height: calc(100% - 54px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 40px 30px;
+  position: absolute;
+  top: 54px;
+  left: 0;
+}
+
+.product__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+}
+
+.product__list-item a {
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.product__list-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.product__social-text {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.product__social i {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.product__social i:not(:last-child) {
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=style.css.map */
